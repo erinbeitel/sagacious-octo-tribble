@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root "pages#home"
   get "about" => "pages#about" #creates "about_path"
+  get "todo" => "pages#todo" #creates "todo_path"
+
   
   # get 'pages/home' removing this get route and setting root to be home.
 
